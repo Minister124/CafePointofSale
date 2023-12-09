@@ -350,3 +350,17 @@ D:\IIC\Application Development\Self\Cafe_Falaicha\obj\Debug\net7.0-windows10.0.1
 D:\IIC\Application Development\Self\Cafe_Falaicha\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 D:\IIC\Application Development\Self\Cafe_Falaicha\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 D:\IIC\Application Development\Self\Cafe_Falaicha\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+D:\IIC\Application Development\Self\Cafe_Falaicha\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Blazorise.dll
+D:\IIC\Application Development\Self\Cafe_Falaicha\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Blazorise.Bootstrap.dll
+D:\IIC\Application Development\Self\Cafe_Falaicha\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Blazorise.Components.dll
+D:\IIC\Application Development\Self\Cafe_Falaicha\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Blazorise.DataGrid.dll
+D:\IIC\Application Development\Self\Cafe_Falaicha\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Blazorise.Icons.FontAwesome.dll
+D:\IIC\Application Development\Self\Cafe_Falaicha\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Blazorise.Licensing.dll
+D:\IIC\Application Development\Self\Cafe_Falaicha\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Blazorise.Snackbar.dll
+D:\IIC\Application Development\Self\Cafe_Falaicha\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\DeepCloner.dll
+D:\IIC\Application Development\Self\Cafe_Falaicha\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Localization.dll
+D:\IIC\Application Development\Self\Cafe_Falaicha\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Localization.Abstractions.dll
+D:\IIC\Application Development\Self\Cafe_Falaicha\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MudBlazor.dll
+D:\IIC\Application Development\Self\Cafe_Falaicha\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\clrcompression.dll
+D:\IIC\Application Development\Self\Cafe_Falaicha\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Cafe_Falaicha.sourcelink.json
+D:\IIC\Application Development\Self\Cafe_Falaicha\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Newtonsoft.Json.dll

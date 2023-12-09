@@ -61,6 +61,30 @@
         "net7.0-android33.0": {
           "targetAlias": "net7.0-android",
           "dependencies": {
+            "Blazorise": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Blazorise.Bootstrap": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Blazorise.Components": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Blazorise.DataGrid": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Blazorise.Icons.FontAwesome": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Blazorise.Snackbar": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
             "Microsoft.AspNetCore.Components.WebView.Maui": {
               "target": "Package",
               "version": "[7.0.101, )",
@@ -101,6 +125,14 @@
               "target": "Package",
               "version": "[7.0.100-1.23211.1, )",
               "autoReferenced": true
+            },
+            "MudBlazor": {
+              "target": "Package",
+              "version": "[6.11.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "Xamarin.Android.Glide": {
               "target": "Package",
@@ -237,6 +269,30 @@
         "net7.0-ios16.1": {
           "targetAlias": "net7.0-ios",
           "dependencies": {
+            "Blazorise": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Blazorise.Bootstrap": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Blazorise.Components": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Blazorise.DataGrid": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Blazorise.Icons.FontAwesome": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Blazorise.Snackbar": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
             "Microsoft.AspNetCore.Components.WebView.Maui": {
               "target": "Package",
               "version": "[7.0.101, )",
@@ -277,6 +333,14 @@
               "target": "Package",
               "version": "[7.0.100-1.23211.1, )",
               "autoReferenced": true
+            },
+            "MudBlazor": {
+              "target": "Package",
+              "version": "[6.11.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [
@@ -346,6 +410,30 @@
         "net7.0-maccatalyst16.1": {
           "targetAlias": "net7.0-maccatalyst",
           "dependencies": {
+            "Blazorise": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Blazorise.Bootstrap": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Blazorise.Components": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Blazorise.DataGrid": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Blazorise.Icons.FontAwesome": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Blazorise.Snackbar": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
             "Microsoft.AspNetCore.Components.WebView.Maui": {
               "target": "Package",
               "version": "[7.0.101, )",
@@ -386,6 +474,14 @@
               "target": "Package",
               "version": "[7.0.100-1.23211.1, )",
               "autoReferenced": true
+            },
+            "MudBlazor": {
+              "target": "Package",
+              "version": "[6.11.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [
@@ -456,6 +552,30 @@
         "net7.0-windows10.0.19041": {
           "targetAlias": "net7.0-windows10.0.19041.0",
           "dependencies": {
+            "Blazorise": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Blazorise.Bootstrap": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Blazorise.Components": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Blazorise.DataGrid": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Blazorise.Icons.FontAwesome": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Blazorise.Snackbar": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
             "Microsoft.AspNetCore.Components.WebView.Maui": {
               "target": "Package",
               "version": "[7.0.101, )",
@@ -494,6 +614,14 @@
               "target": "Package",
               "version": "[1.2.221209.1, )",
               "autoReferenced": true
+            },
+            "MudBlazor": {
+              "target": "Package",
+              "version": "[6.11.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [

@@ -1,5 +1,9 @@
-﻿using Cafe_Falaicha.Data;
+﻿using MudBlazor.Services;
+using Blazorise;
+using Blazorise.Bootstrap;
+using Blazorise.Icons.FontAwesome;
 using Microsoft.Extensions.Logging;
+using Cafe_Falaicha.Data.Services;
 
 namespace Cafe_Falaicha
 {
@@ -7,6 +11,7 @@ namespace Cafe_Falaicha
     {
         public static MauiApp CreateMauiApp()
         {
+            CoffeeAddInsService.InitializeAndSaveDefaultData();
             var builder = MauiApp.CreateBuilder();
             builder
                 .UseMauiApp<App>()
@@ -16,14 +21,19 @@ namespace Cafe_Falaicha
                 });
 
             builder.Services.AddMauiBlazorWebView();
+            builder.Services.AddMudServices();
+            builder.Services
+                            .AddBlazorise(options =>
+                            {
+                                options.Immediate = true;
+                            })
+                            .AddBootstrapProviders()
+                            .AddFontAwesomeIcons();
 
 #if DEBUG
-    		builder.Services.AddBlazorWebViewDeveloperTools();
+            builder.Services.AddBlazorWebViewDeveloperTools();
     		builder.Logging.AddDebug();
 #endif
-
-            builder.Services.AddSingleton<WeatherForecastService>();
-
             return builder.Build();
         }
     }

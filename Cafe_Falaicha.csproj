@@ -50,11 +50,19 @@
     </ItemGroup>
 
     <ItemGroup>
+        <PackageReference Include="Blazorise" Version="1.4.0" />
+        <PackageReference Include="Blazorise.Bootstrap" Version="1.4.0" />
+        <PackageReference Include="Blazorise.Components" Version="1.4.0" />
+        <PackageReference Include="Blazorise.DataGrid" Version="1.4.0" />
+        <PackageReference Include="Blazorise.Icons.FontAwesome" Version="1.4.0" />
+        <PackageReference Include="Blazorise.Snackbar" Version="1.4.0" />
         <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
+		<PackageReference Include="MudBlazor" Version="6.11.1" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Data\" />
+      <Folder Include="Data\Seeder\" />
     </ItemGroup>
 
 </Project>

@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Cafe_Falaicha")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+14583440f23bb7387a503fc2e633176a41200afb")]
 [assembly: System.Reflection.AssemblyProductAttribute("Cafe_Falaicha")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Cafe_Falaicha")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
