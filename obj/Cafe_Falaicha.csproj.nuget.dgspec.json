@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\IIC\\Application Development\\Self\\Cafe_Falaicha\\Cafe_Falaicha.csproj": {}
+    "C:\\Users\\kusha\\Desktop\\IIC\\Application Development\\Self\\Cafe_Falaicha\\Cafe_Falaicha.csproj": {}
   },
   "projects": {
-    "D:\\IIC\\Application Development\\Self\\Cafe_Falaicha\\Cafe_Falaicha.csproj": {
+    "C:\\Users\\kusha\\Desktop\\IIC\\Application Development\\Self\\Cafe_Falaicha\\Cafe_Falaicha.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\IIC\\Application Development\\Self\\Cafe_Falaicha\\Cafe_Falaicha.csproj",
+        "projectUniqueName": "C:\\Users\\kusha\\Desktop\\IIC\\Application Development\\Self\\Cafe_Falaicha\\Cafe_Falaicha.csproj",
         "projectName": "Cafe_Falaicha",
-        "projectPath": "D:\\IIC\\Application Development\\Self\\Cafe_Falaicha\\Cafe_Falaicha.csproj",
-        "packagesPath": "C:\\Users\\Eastpoint\\.nuget\\packages\\",
-        "outputPath": "D:\\IIC\\Application Development\\Self\\Cafe_Falaicha\\obj\\",
+        "projectPath": "C:\\Users\\kusha\\Desktop\\IIC\\Application Development\\Self\\Cafe_Falaicha\\Cafe_Falaicha.csproj",
+        "packagesPath": "C:\\Users\\kusha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kusha\\Desktop\\IIC\\Application Development\\Self\\Cafe_Falaicha\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Eastpoint\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kusha\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

@@ -31,4 +31,19 @@ public static class Utils
             return filePath;
         }
     }
+    public static string CoffeesFilePath()
+    {
+        string directoryPath = ApplicationDirectoryPath();
+        string fileName = "Coffees.json";
+        string filePath = Path.Combine(directoryPath, fileName);
+        if (!File.Exists(filePath))
+        {
+            File.Create(filePath);
+            return filePath;
+        }
+        else
+        {
+            return filePath;
+        }
+    }
 }

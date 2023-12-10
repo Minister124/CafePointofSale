@@ -50,6 +50,15 @@
     </ItemGroup>
 
     <ItemGroup>
+      <AndroidResource Remove="Data\Seeder\**" />
+      <Compile Remove="Data\Seeder\**" />
+      <Content Remove="Data\Seeder\**" />
+      <EmbeddedResource Remove="Data\Seeder\**" />
+      <MauiXaml Remove="Data\Seeder\**" />
+      <None Remove="Data\Seeder\**" />
+    </ItemGroup>
+
+    <ItemGroup>
         <PackageReference Include="Blazorise" Version="1.4.0" />
         <PackageReference Include="Blazorise.Bootstrap" Version="1.4.0" />
         <PackageReference Include="Blazorise.Components" Version="1.4.0" />
@@ -59,10 +68,6 @@
         <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
 		<PackageReference Include="MudBlazor" Version="6.11.1" />
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="Data\Seeder\" />
     </ItemGroup>
 
 </Project>
