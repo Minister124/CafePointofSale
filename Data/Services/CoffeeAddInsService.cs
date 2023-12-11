@@ -30,4 +30,23 @@ public class CoffeeAddInsService
             };
         SaveCoffeeAddInsToJson(defaultAddInsList);
     }
+
+    public static List<CoffeeAddIns> RetrieveCoffeeData()
+    {
+        string filePath = Utils.Utils.AddInsFilePath();
+        try
+        {
+            string existingJsonData = File.ReadAllText(filePath);
+            if (string.IsNullOrEmpty(existingJsonData))
+            {
+                return new List<CoffeeAddIns>();
+            }
+            return JsonConvert.DeserializeObject<List<CoffeeAddIns>>(existingJsonData);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error reading JSON file: {ex.Message}");
+            return new List<CoffeeAddIns>();
+        }
+    }
 }

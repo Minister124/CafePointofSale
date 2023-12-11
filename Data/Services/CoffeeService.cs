@@ -1,4 +1,5 @@
 ﻿using Cafe_Falaicha.Data.Models;
+using Cafe_Falaicha.Data.Utils;
 using Newtonsoft.Json;
 
 namespace Cafe_Falaicha.Data.Services;
@@ -30,5 +31,23 @@ public class CoffeeService
         string filePath = Utils.Utils.CoffeesFilePath();
         string jsonData = JsonConvert.SerializeObject(coffee, Formatting.Indented);
         File.WriteAllText(filePath, jsonData);
+    }
+
+    public static List<Coffee> RetrieveCoffeeData()
+    {
+        string filePath = Utils.Utils.CoffeesFilePath();
+        try
+        {
+            string existingJsonData = File.ReadAllText(filePath);
+            if (string.IsNullOrEmpty(existingJsonData))
+            {
+                return new List<Coffee>();
+            }
+            return JsonConvert.DeserializeObject<List<Coffee>>(existingJsonData);
+        }catch (Exception ex)
+        {
+            Console.WriteLine($"Error reading JSON file: {ex.Message}");
+            return new List<Coffee>();
+        }
     }
 }
